@@ -1,0 +1,51 @@
+CREATE TABLE test_table(
+    "name" varchar(10),
+	surname varchar(10),
+	city varchar,
+	age smallint
+);
+
+INSERT INTO test_table ("name", "surname", "city", "age") VALUES
+   ('Jim','Charles','Джибути',84),
+    ('Terell','Coyote','Венеция',14),
+    ('Brantley','Charles','Венеция',36),
+    ('Jim','Jordan','Рига',58),
+    ('Jim','Jordan','Вьентьян',54),
+    ('Brantley','Jordan','Новочеркасск',121),
+    ('Dreven','Darkheart','Континент',1),
+    ('Titus','Evans','Вьентьян',71),
+    ('Dreven','Vale','Новочеркасск',17),
+    ('Cordell','Rex','Канпур',60),
+    ('Dreven','Vale','Рига',100),
+    ('Bob','Coyote','Лакхнау',58),
+    ('Jim','Charles','Континент',114),
+    ('Brantley','Jordan','Рига',145),
+    ('Dreven','Rex','Джибути',128),
+    ('Dreven','Charles','Континент',43),
+    ('Bob','Waters','Нанкин',144),
+    ('Preston','Tailor','Нанкин',120),
+    ('Dreven','Tailor','Континент',120),
+    ('Bob','Charles','Рига',11),
+    ('Terell','Jordan','Канпур',130),
+    ('Cordell','Darkheart','Рига',133),
+    ('Preston','Evans','Венеция',14),
+    ('Dreven','Jordan','Джибути',21),
+    ('Titus','Rex','Рига',114),
+    ('Dreven','Jordan','Лакхнау',77),
+    ('Terell','Rex','Континент',85),
+    ('Bob','Rex','Джибути',46),
+    ('Cordell','Charles','Нанкин',102),
+    ('Titus','Evans','Рига',18),
+    ('Brantley','Jordan','Континент',57),
+    ('Jim','Tailor','Новочеркасск',127),
+    ('Titus','Evans','Рига',37),
+    ('Jim','Darkheart','Континент',140),
+    ('Cordell','Darkheart','Нанкин',51),
+    ('Theodore','Darkheart','Венеция',90),
+    ('Terell','Coyote','Венеция',44),
+    ('Terell','Waters','Венеция',31),
+    ('Jim','Tailor','Вьентьян',64),
+    ('Jim','Rex','Континент',11);
+
+
+
